@@ -8,6 +8,7 @@ public class Task5 {
         double f;
         double c;
 
+        //ask user for temp and conversion
         System.out.println("What is the temperature? (In fahrenheit)");
         f = scan.nextDouble();
         c = (f - 32)*5/9;
